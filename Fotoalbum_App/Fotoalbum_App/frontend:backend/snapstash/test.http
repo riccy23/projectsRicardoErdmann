@@ -1,0 +1,147 @@
+### GET request to example server
+GET http://localhost:8888/users
+
+
+### CHECK TEST LOGIN
+POST http://localhost:8888/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+### CHECK GETAlbums as Admin
+
+GET http://localhost:8888/home/albums
+
+### LOG OUT
+GET http://localhost:8888/logout
+
+
+### CHECK TEST LOGIN
+POST http://localhost:8888/login
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+### CHECK GETAlbums
+
+GET http://localhost:8888/home/albums
+
+### Create Album
+POST http://localhost:8888/home/albums
+Content-Type: application/json
+
+{
+  "title": "Berlin Trip"
+}
+
+
+### DELETE Album
+DELETE http://localhost:8888/home/albums/13
+
+
+### GET AlbumByTitle
+GET http://localhost:8888/home/albums/Trip
+
+
+
+### PUT new Album Title
+PUT http://localhost:8888/home/albums/1
+Content-Type: application/json
+
+{
+  "title": "Test Trip"
+}
+
+### Assign Keyword
+POST http://localhost:8888/home/albums/16/keywords/3
+
+
+
+
+
+
+### get Photos From Album
+GET http://localhost:8888/home/albums/2/photos
+
+### create Photos
+POST localhost:8888/home/albums/7/photos
+Content-Type: application/json
+
+{
+  "title": "Mauer",
+  "url": "/mauer.png"
+}
+
+### Get Photo By ID
+GET http://localhost:8888/home/albums/1/photos/2
+
+### GET Photo By Title
+GET http://localhost:8888/home/albums/9/photos/search/Pari
+
+
+
+### UPDATE Photo
+PATCH http://localhost:8888/home/albums/9/photos/33
+Content-Type: application/json
+
+{
+  "title": "Neuer Title",
+  "creation_date": "2024-09-13"
+}
+
+
+### DELETE Photo
+DELETE http://localhost:8888/home/albums/7/photos/9
+
+
+### Create a keyword and assign to Album
+POST http://localhost:8888/home/albums/1/keywords/ParisAmArsch
+
+### Create a keyword and assign to Photo
+POST http://localhost:8888/home/albums/4/photos/2/keywords/HaliHallo
+
+### Delete a keyword and unsign from Photo
+DELETE http://localhost:8888/home/albums/2/photos/5/keywords/Test
+
+### Delete a keyword and unsign from Album
+DELETE http://localhost:8888/home/albums/1/keywords/Hallo
+
+
+### GET ALL PHOTOS FROM USER
+GET http://localhost:8888/home/albums/allPhotos/
+
+
+### GET USERS
+GET http://localhost:8888/users
+
+### CREATE USER
+POST http://localhost:8888/users/
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+### UPDATE USER
+PATCH http://localhost:8888/users/5
+Content-Type: application/json
+
+{
+  "username": "Jan",
+  "password": "Passwort"
+}
+
+### DELETE USER
+DELETE http://localhost:8888/users/5
+
+### GET USER BY NAME
+GET http://localhost:8888/users/search/Nic
+
+

@@ -1,0 +1,9 @@
+Sehr geehrte Prüfer und Prüferinnen,
+
+ich möchte Ihnen gerne eine Erklärung zu einem Problem und meiner Lösung im Zusammenhang mit der JShell-Programmierung präsentieren, um vollständige Transparenz zu gewährleisten und sicherzustellen, dass meine Vorgehensweise keinen unerlaubten Vorteil verschafft oder meine Bewertung beeinträchtigt.
+
+Während ich meine JShell-Ausgabe entwickelte und diese testen wollte, stieß ich auf ein wiederkehrendes Problem. Bei dem Versuch, meine Klassen in die JShell zu kopieren, wurde immer wieder derselbe Fehler angezeigt. Dieses Problem entstand, weil sich mein Positions-Record im Interface IModel befand, wodurch die JShell glaubte, es handele sich um ein unbekanntes Paket namens "IModel".
+
+Um dieses Problem zu umgehen, habe ich vorübergehend den Positions-Record aus dem Interface entfernt und in eine eigene Klasse gelegt. Anschließend habe ich alle Klassen kopiert und in einer separaten Textdatei namens 'Copy/Paste für Terminal (JShell)' zur Verfügung gestellt. Auf diese Weise kann man die Klassen einfach kopieren und in die JShell einfügen. Die Logik des Spiels wurde während dieses Prozesses zu 100% unverändert beibehalten. Die einzige vorübergehende Änderung bestand darin, dass der Positions-Record kurzzeitig aus dem Interface entfernt wurde, um Konflikte mit der JShell zu vermeiden.
+
+Ich hoffe, dass diese Erklärung meine Vorgehensweise klarstellt und verdeutlicht, dass meine Absicht lediglich darin bestand, technische Schwierigkeiten zu überwinden, ohne die Integrität des Projekts zu beeinträchtigen. Vielen Dank für Ihr Verständnis und Ihre Berücksichtigung.

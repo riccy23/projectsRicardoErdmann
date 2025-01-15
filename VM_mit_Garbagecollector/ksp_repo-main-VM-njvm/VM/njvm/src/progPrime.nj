@@ -1,0 +1,31 @@
+void main() {
+  local Integer n;
+  local Integer i;
+  local Boolean isPrime;
+  n = readInteger();
+  if (n <= 1) {
+    writeCharacter('N');
+    writeCharacter('o');
+    writeCharacter('\n');
+    return;
+  }
+  i = 2;
+  isPrime = true;
+  while (i * i <= n && isPrime) {
+    if (n % i == 0) {
+      isPrime = false;
+    }
+    i = i + 1;
+  }
+  if (isPrime) {
+    writeCharacter('Y');
+    writeCharacter('e');
+    writeCharacter('s');
+    writeCharacter('\n');
+  } else {
+    writeCharacter('N');
+    writeCharacter('o');
+    writeCharacter('\n');
+  }
+}
+

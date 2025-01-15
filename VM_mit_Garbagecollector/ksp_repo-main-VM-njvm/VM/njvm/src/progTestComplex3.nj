@@ -1,0 +1,15 @@
+void main() {
+  local Integer result;
+  result = sumOfSquares(3, 4);
+  writeInteger(result);
+  writeCharacter('\n');
+}
+
+Integer sumOfSquares(Integer a, Integer b) {
+  return square(a) + square(b);
+}
+
+Integer square(Integer x) {
+  return x * x;
+}
+

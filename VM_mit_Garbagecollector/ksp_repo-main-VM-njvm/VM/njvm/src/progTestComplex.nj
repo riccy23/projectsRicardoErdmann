@@ -1,0 +1,19 @@
+void main() {
+  local Integer result;
+  result = computeSum(2, 3);
+  writeInteger(result);
+  writeCharacter('\n');
+}
+
+Integer computeSum(Integer a, Integer b) {
+  return multiply(a, b) + add(a, b);
+}
+
+Integer multiply(Integer x, Integer y) {
+  return x * y;
+}
+
+Integer add(Integer x, Integer y) {
+  return x + y;
+}
+

@@ -1,0 +1,18 @@
+void main() {
+  local Integer n;
+  local Integer a;
+  local Integer b;
+  local Integer temp;
+  n = readInteger();
+  a = 0;
+  b = 1;
+  while (n > 0) {
+    temp = a + b;
+    a = b;
+    b = temp;
+    n = n - 1;
+  }
+  writeInteger(a);
+  writeCharacter('\n');
+}
+

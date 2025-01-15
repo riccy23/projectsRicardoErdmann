@@ -1,0 +1,729 @@
+DELETE http://localhost:8888/home/albums/2/photos/5/keywords/Test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=e250b4e204abf3fc962c5da20b50acc4
+content-length: 0
+
+<> 2024-08-08T095823.201.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=4fb742cdf6eba4264362cdee2be0e840
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+<> 2024-08-08T095715.200.json
+
+###
+
+GET http://localhost:8888/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=4fb742cdf6eba4264362cdee2be0e840
+cookie: vertx-web.session=4fb742cdf6eba4264362cdee2be0e840
+content-length: 0
+
+<> 2024-08-07T132703.200.html
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=fcde4e7b1471b195160141d6fb2146a1
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+<> 2024-08-07T132656.200.json
+
+###
+
+GET http://localhost:8888/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=fcde4e7b1471b195160141d6fb2146a1
+content-length: 0
+
+<> 2024-08-07T131758.200.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=fcde4e7b1471b195160141d6fb2146a1
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+<> 2024-08-07T131753.200.json
+
+###
+
+GET http://localhost:8888/logout
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=fcde4e7b1471b195160141d6fb2146a1
+cookie: vertx-web.session=fcde4e7b1471b195160141d6fb2146a1
+content-length: 0
+
+<> 2024-08-07T131751.200.html
+
+###
+
+GET http://localhost:8888/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=fcde4e7b1471b195160141d6fb2146a1
+content-length: 0
+
+<> 2024-08-07T131730.403.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=d2e0435480983e01ab8f0f69e2d754e9
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+<> 2024-08-07T131721.200.json
+
+###
+
+GET http://localhost:8888/users
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=d2e0435480983e01ab8f0f69e2d754e9
+content-length: 0
+
+<> 2024-08-07T131323.200.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=b49db5d6c4ae2ef665206a7759dcb830
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+<> 2024-08-07T131303.200.json
+
+###
+
+GET http://localhost:8888/users/search/Nic
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=b49db5d6c4ae2ef665206a7759dcb830
+content-length: 0
+
+<> 2024-08-07T120614.200.json
+
+###
+
+GET http://localhost:8888/users/search/Ni
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=b49db5d6c4ae2ef665206a7759dcb830
+content-length: 0
+
+<> 2024-08-07T120607.200.json
+
+###
+
+GET http://localhost:8888/users/search/Nick
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=b49db5d6c4ae2ef665206a7759dcb830
+content-length: 0
+
+<> 2024-08-07T120602.200.json
+
+###
+
+GET http://localhost:8888/users/search/Zuim
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=b49db5d6c4ae2ef665206a7759dcb830
+content-length: 0
+
+<> 2024-08-07T120556.200.json
+
+###
+
+GET http://localhost:8888/users/search/Zuim
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=b49db5d6c4ae2ef665206a7759dcb830
+content-length: 0
+
+<> 2024-08-07T120544.200.json
+
+###
+
+POST http://localhost:8888/users/
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=b49db5d6c4ae2ef665206a7759dcb830
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+<> 2024-08-07T120516.409.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=759740266a0a3cbe18f060e46032d4f6
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+<> 2024-08-07T120511.200.json
+
+###
+
+POST http://localhost:8888/users/
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=759740266a0a3cbe18f060e46032d4f6
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+<> 2024-08-07T120301.409.json
+
+###
+
+POST http://localhost:8888/users/
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=759740266a0a3cbe18f060e46032d4f6
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+<> 2024-08-07T120254.409.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+<> 2024-08-07T120248.200.json
+
+###
+
+POST http://localhost:8888/users/
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+<> 2024-08-07T120125.403.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+<> 2024-08-07T120119.200.json
+
+###
+
+GET http://localhost:8888/logout
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+content-length: 0
+
+<> 2024-08-07T120115.200.html
+
+###
+
+POST http://localhost:8888/users/
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+<> 2024-08-07T120109.201.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+<> 2024-08-07T120050.200.json
+
+###
+
+GET http://localhost:8888/logout
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+content-length: 0
+
+<> 2024-08-07T120028.200.html
+
+###
+
+GET http://localhost:8888/users/search/Zuim
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+content-length: 0
+
+<> 2024-08-07T120002.200.json
+
+###
+
+GET http://localhost:8888/users/search/Ni
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+content-length: 0
+
+<> 2024-08-07T115946.200.json
+
+###
+
+GET http://localhost:8888/users/search/Nick
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+content-length: 0
+
+<> 2024-08-07T115942.200.json
+
+###
+
+GET http://localhost:8888/users/search/Nick
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+content-length: 0
+
+<> 2024-08-07T115903.200.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=86d80b13e5eed098191978a331e3d2da
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+<> 2024-08-07T115858.200.json
+
+###
+
+GET http://localhost:8888/users/search/Nick
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=5389efe77a303c5599577590f487ddda
+cookie: vertx-web.session=7488fa95853c731054233ac943db1a45
+content-length: 0
+
+<> 2024-08-07T115852.200.html
+
+###
+
+GET http://localhost:8888/users/search/Nick
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=5389efe77a303c5599577590f487ddda
+content-length: 0
+
+<> 2024-08-07T115732.200.json
+
+###
+
+GET http://localhost:8888/users/search/Nick
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=5389efe77a303c5599577590f487ddda
+content-length: 0
+
+<> 2024-08-07T115725.200.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=cb8ac81a182e90d6b1686bfc2a5a418c
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+<> 2024-08-07T115721.200.json
+
+###
+
+DELETE http://localhost:8888/users/5
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=cb8ac81a182e90d6b1686bfc2a5a418c
+content-length: 0
+
+<> 2024-08-07T114005.201.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=c4d66c52629b2533e5b30b01e83bca4e
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+<> 2024-08-07T113959.200.json
+
+###
+
+PATCH http://localhost:8888/users/5
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=c4d66c52629b2533e5b30b01e83bca4e
+
+{
+  "username": "Jan",
+  "password": "Passwort"
+}
+
+<> 2024-08-07T112010.201.json
+
+###
+
+PATCH http://localhost:8888/users/5
+Content-Type: application/json
+Content-Length: 41
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=c4d66c52629b2533e5b30b01e83bca4e
+
+{
+  "username": "",
+  "password": "Neu"
+}
+
+<> 2024-08-07T111951.201.json
+
+###
+
+PATCH http://localhost:8888/users/5
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=c4d66c52629b2533e5b30b01e83bca4e
+
+{
+  "username": "Robin",
+  "password": ""
+}
+
+<> 2024-08-07T111937.201.json
+
+###
+
+PATCH http://localhost:8888/users/5
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=c4d66c52629b2533e5b30b01e83bca4e
+
+{
+  "username": "Ricardo",
+  "password": "test123"
+}
+
+<> 2024-08-07T111915.201.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=1a3f8402d8012564d976da92b9e391ef
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+<> 2024-08-07T111910.200.json
+
+###
+
+PATCH http://localhost:8888/users/5
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=1a3f8402d8012564d976da92b9e391ef
+
+{
+  "username": "Ricardo",
+  "password": "test123"
+}
+
+<> 2024-08-07T111702.500.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=ac6d39c8ee847a120a5241b044e0846d
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+<> 2024-08-07T111658.200.json
+
+###
+
+PATCH http://localhost:8888/users/5
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=ac6d39c8ee847a120a5241b044e0846d
+
+{
+  "username": "Robert",
+  "password": "Super"
+}
+
+<> 2024-08-07T110603.201.json
+
+###
+
+PATCH http://localhost:8888/users/5
+Content-Type: application/json
+Content-Length: 42
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=ac6d39c8ee847a120a5241b044e0846d
+
+{
+  "username": "",
+  "password": "Test"
+}
+
+<> 2024-08-07T110543.201.json
+
+###
+
+PATCH http://localhost:8888/users/5
+Content-Type: application/json
+Content-Length: 43
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=ac6d39c8ee847a120a5241b044e0846d
+
+{
+  "username": "Janik",
+  "password": ""
+}
+
+<> 2024-08-07T110521.201.json
+
+###
+
+POST http://localhost:8888/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=7a729d0aa120f9bbd0a511baacd361af
+
+{
+  "username": "admin",
+  "password": "root"
+}
+
+<> 2024-08-07T110509.200.json
+
+###
+
+PATCH http://localhost:8888/users/5
+Content-Type: application/json
+Content-Length: 44
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: vertx-web.session=7a729d0aa120f9bbd0a511baacd361af
+
+{
+  "username": "",
+  "password": "hallo1"
+}
+
+<> 2024-08-07T110326.201.json
+
+###
+
